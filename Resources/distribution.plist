@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+<title>Resolved</title>
+    <pkg-ref id="com.toplessbanana.pkg.Resolved"/>
+    <options customize="never" require-scripts="false" hostArchitectures="x86_64,arm64"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.toplessbanana.pkg.Resolved"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.toplessbanana.pkg.Resolved" visible="false">
+        <pkg-ref id="com.toplessbanana.pkg.Resolved"/>
+    </choice>
+    <pkg-ref id="com.toplessbanana.pkg.Resolved" version="1.2.1" onConclusion="none">Resolved.pkg</pkg-ref>
+</installer-gui-script>

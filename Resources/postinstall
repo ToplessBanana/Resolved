@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/bin/ln -sf /Applications/Resolved.app/Contents/MacOS/ResolvedCLI /usr/local/bin/

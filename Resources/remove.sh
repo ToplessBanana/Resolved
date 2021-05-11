@@ -12,9 +12,7 @@ PACKAGE_ID=(
 #
 
 removePackageFiles() {
-	
 	local package_files=("$@")
-	
 	for file in "${package_files[@]}"
 	do
 		/bin/rm -rf $file
@@ -26,9 +24,7 @@ removePackageFiles "${PACKAGE_FILES[@]}"
 #
 
 removePackageID() {
-	
 	local package_id=("$@")
-	
 	for id in "${package_id[@]}"
 	do
 		/usr/sbin/pkgutil --forget $id

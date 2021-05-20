@@ -82,7 +82,6 @@
 		7543CB0D25DF06A800609FFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		756C52DE25DF08C50053318B /* ResolvedCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ResolvedCLI; sourceTree = BUILT_PRODUCTS_DIR; };
 		756C52E025DF08C50053318B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		756D1D6D25FA6840002FDC74 /* package.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = package.sh; sourceTree = "<group>"; };
 		758A47C22649DEC300647184 /* distribution.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = distribution.plist; sourceTree = "<group>"; };
 		758A47C32649DEC300647184 /* postinstall */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = postinstall; sourceTree = "<group>"; };
 		758A47C42649DEC300647184 /* remove.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = remove.sh; sourceTree = "<group>"; };
@@ -127,7 +126,6 @@
 				758A47C22649DEC300647184 /* distribution.plist */,
 				758A47C32649DEC300647184 /* postinstall */,
 				758A47C42649DEC300647184 /* remove.sh */,
-				756D1D6D25FA6840002FDC74 /* package.sh */,
 				7508C1D725DF0D9E00166BCA /* CGDisplayMode.swift */,
 				7508C1D625DF0D9E00166BCA /* String.swift */,
 			);
